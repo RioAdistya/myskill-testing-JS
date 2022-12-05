@@ -1,0 +1,31 @@
+{
+  "name": "testing-js",
+  "version": "1.0.0",
+  "description": "mocha chai petStore example",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/api/welcomeTest.js",
+    "test_get": "mocha test/api/getInventory.js --timeout 10000",
+    "test_post": "mocha test/api/postUser.js --timeout 10000",
+    "test_report": "npx mocha --spec test/api/chaiAssert.js --reporter mochawesome --timeout 10000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RioAdistya/myskill-testing-JS.git"
+  },
+  "author": "rio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RioAdistya/myskill-testing-JS/issues"
+  },
+  "homepage": "https://github.com/RioAdistya/myskill-testing-JS#readme",
+  "dependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.1.0",
+    "mochawesome": "^7.1.3",
+    "supertest": "^6.3.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.5"
+  }
+}
