@@ -1,4 +1,4 @@
-# myskill-testing-JS
+# petStore-testing-JS
 
 Study case for My Skill course for API Automation Test (Modul 11) with mocha chai javascript in myskill.id. 
 
